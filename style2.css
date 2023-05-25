@@ -1,0 +1,52 @@
+body{
+    background-color: gray;
+}
+#divParent{
+    border-radius: 5px;
+    width: 400px;
+    height: 200px;
+    background-color: yellow;
+    position: relative;
+    margin: auto;
+}
+#divChild{
+    width: 80px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+#right{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline;
+    float: right;
+    margin-top: 122px;
+}
+#right:hover{
+    opacity: 0.7;
+}
+#left{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline;
+    margin-top: 122px;
+}
+#left:hover{
+    opacity: 0.7;
+}
+#firstExercice{
+    background-color: white;
+    display: inline;
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+}

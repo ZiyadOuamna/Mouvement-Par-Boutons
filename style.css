@@ -1,0 +1,35 @@
+body{
+    background-color: gray;
+}
+.divParent{
+    border-radius: 5px;
+    width: 400px;
+    height: 200px;
+    background-color: yellow;
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+.divChild{
+    width: 80px;
+    height: 50px;
+    background-color: blue;
+    float: left;
+    text-align: center;
+    color: white;
+    animation-timing-function: ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-delay : 1s;   
+}
+/*=====================Next exercice===================*/
+.nextExercice{
+    background-color:white;
+    display: inline;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+}
